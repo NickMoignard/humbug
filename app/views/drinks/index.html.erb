@@ -1,0 +1,37 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Drinks</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Year</th>
+      <th>Name</th>
+      <th>Locale</th>
+      <th>Price s</th>
+      <th>Price m</th>
+      <th>Price l</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @drinks.each do |drink| %>
+      <tr>
+        <td><%= drink.year %></td>
+        <td><%= drink.name %></td>
+        <td><%= drink.locale %></td>
+        <td><%= drink.price_s %></td>
+        <td><%= drink.price_m %></td>
+        <td><%= drink.price_l %></td>
+        <td><%= link_to 'Show', drink %></td>
+        <td><%= link_to 'Edit', edit_drink_path(drink) %></td>
+        <td><%= link_to 'Destroy', drink, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Drink', new_drink_path %>

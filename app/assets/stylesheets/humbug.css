@@ -1,0 +1,32 @@
+.wide {
+    margin: 0 ;
+}
+
+#scroll-btn {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nav li a {
+    padding: 2.5vh !important;
+}
+.icons li {
+    height: 100%;
+}
+
+.icons li a {
+    height:100%;
+    width:100%;
+}
+
+.eat-drink {
+    height: 20vh;
+    text-align: center;
+}
+#eat {
+    width: 50%;
+}
+
+#drink {
+    width: 50%;
+}

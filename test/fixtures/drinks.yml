@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  year: 1
+  name: MyString
+  locale: MyString
+  price_s: 1.5
+  price_m: 1.5
+  price_l: 1.5
+
+two:
+  year: 1
+  name: MyString
+  locale: MyString
+  price_s: 1.5
+  price_m: 1.5
+  price_l: 1.5
