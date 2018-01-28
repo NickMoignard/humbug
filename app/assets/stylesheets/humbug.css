@@ -1,5 +1,5 @@
 .wide {
-    margin: 0 ;
+    margin: 0px ;
 }
 
 #scroll-btn {
@@ -24,9 +24,41 @@
     text-align: center;
 }
 #eat {
-    width: 50%;
+    width: 33%;
 }
 
 #drink {
-    width: 50%;
+    width: 33%;
+}
+
+#cocktails {
+    width: 33%;
+}
+
+#menu-title {
+    width: 60vw;
+    margin: auto !important;
+
+}
+
+#menu-title h2 {
+
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+
+/* Parallax Effect */
+/*
+Use a container element and add a background image to the container with a specific height.
+Then use 'background-attachement: fixed; ' to create the parallax effect
+The image will need to centered and scaled after.
+*/
+
+.parallax {
+    height: 50vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
